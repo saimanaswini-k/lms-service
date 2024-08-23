@@ -1,5 +1,5 @@
-FROM sunbird/openjdk-java11-alpine:latest
-MAINTAINER "Manojv" "manojv@ilimi.in"
+FROM eclipse-temurin:11-jdk-focal
+
 RUN apk update \
     && apk add  unzip \
     && apk add curl \
